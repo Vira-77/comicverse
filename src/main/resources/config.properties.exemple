@@ -1,0 +1,5 @@
+# Créer un fichier `config.properties` dans le dossier `resources`
+# Ajouter la ligne suivante :
+api.key=[Votre clé api]
+
+# Remplacer [Votre clé api] par la clé API obtenue en créant un compte sur Comic Vine 
