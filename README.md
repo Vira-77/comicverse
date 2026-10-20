@@ -2,6 +2,10 @@
 
 Une application Java permettant d'explorer l'univers des comics via l'API Comic Vine.
 
+<p align="center">
+  <img src="docs/images/comicverse_home_screen.png" alt="Écran d'accueil de ComicVerse" width="800">
+</p>
+
 ## Description
 
 ComicVerse est une interface graphique de visualisation et de gestion de comics qui permet aux utilisateurs de :
@@ -11,6 +15,28 @@ ComicVerse est une interface graphique de visualisation et de gestion de comics 
 - Sauvegarder des favoris
 - Suivre sa progression de lecture
 - Obtenir des recommandations personnalisées
+
+## Aperçu
+
+### Accueil
+
+L'écran d'accueil présente les dernières sorties sous forme de grille de couvertures. Chaque carte permet, en un clic, d'ajouter le comic aux favoris (♥), à la bibliothèque (+) ou au panier. Le menu latéral donne accès aux sections **Home**, **Continue Reading**, **For You**, **My Library** et **Favorites** (voir la capture en haut de page).
+
+### Recherche
+
+La barre de recherche en haut de l'écran interroge l'API Comic Vine. On peut y chercher des comics (icône livre) ou des personnages (icône personnage). Pendant le chargement des résultats, une animation d'attente s'affiche :
+
+<p align="center">
+  <img src="docs/images/Comicverse_loading_screen.png" alt="Écran de chargement pendant une recherche" width="700">
+</p>
+
+Les résultats s'affichent ensuite sous forme de grille paginée (boutons **Previous** / **Next**) :
+
+<p align="center">
+  <img src="docs/images/comicverse_search.png" alt="Résultats de recherche pour « batman »" width="700">
+</p>
+
+
 
 ## Technologies utilisées
 
